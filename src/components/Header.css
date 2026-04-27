@@ -1,0 +1,66 @@
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.2rem 4rem;
+  background: rgba(10, 10, 20, 0.92);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(196, 160, 90, 0.2);
+}
+
+.header-logo {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  text-decoration: none;
+}
+
+.logo-icon {
+  font-size: 1.4rem;
+  color: #c4a05a;
+}
+
+.logo-text {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.5rem;
+  color: #f0e8d5;
+  letter-spacing: 0.05em;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.nav-link {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1rem;
+  color: #c9bfa8;
+  text-decoration: none;
+  letter-spacing: 0.08em;
+  transition: color 0.3s;
+}
+
+.nav-link:hover { color: #c4a05a; }
+
+.nav-btn {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 0.9rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #0a0a14;
+  background: #c4a05a;
+  padding: 0.55rem 1.4rem;
+  border-radius: 2px;
+  text-decoration: none;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.nav-btn:hover {
+  background: #e0bc78;
+  transform: translateY(-1px);
+}

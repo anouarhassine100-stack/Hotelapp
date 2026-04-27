@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&display=swap');
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  background: #0a0a14;
+  color: #f0e8d5;
+  font-family: 'Cormorant Garamond', serif;
+  min-height: 100vh;
+}
+
+.footer {
+  background: #05050e;
+  border-top: 1px solid rgba(196,160,90,0.15);
+  text-align: center;
+  padding: 2rem;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 0.9rem;
+  color: #4a4438;
+  letter-spacing: 0.08em;
+}
+
+@media (max-width: 768px) {
+  .header { padding: 1rem 1.5rem; flex-wrap: wrap; gap: 1rem; }
+  .header-nav { gap: 1rem; flex-wrap: wrap; }
+  .about-info, .contact-inner { grid-template-columns: 1fr; gap: 2rem; }
+  .services-grid, .rooms-grid { grid-template-columns: 1fr; }
+}
